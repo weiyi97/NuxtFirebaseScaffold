@@ -1,13 +1,13 @@
 <template>
-
+	<div></div>
 </template>
 
 <script>
-    export default {
-        name: "_uid.vue"
-    }
+export default {
+	name: "ProfilePage"
+	// middleware: "authentication"
+};
 </script>
 
 <style scoped>
-
 </style>

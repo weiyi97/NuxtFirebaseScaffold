@@ -33,6 +33,8 @@ $ npm run deployall
 
 # Things you need to do:
 
-1. Go to /firebase/init.js and add your project information + api keys there
-2. Edit package.json to change the app name and description to your own
-3. In store/user.js and in the signup/index.vue page, specify what information the user keys in for signup for their account
+1. Go to `/firebase/init.js` and add your project information + api keys there
+2. Edit `package.json` to change the app name and description to your own
+3. In `store/user.js` and in the `login.vue` page, specify what information the user keys in for signup for their account\
+
+In order for this app to be able to work, you will need to have already added the Firebase config details in `firebase/init.js`. Details on how to set up a Firebase project for a web app is available [here](https://firebase.google.com/docs/web/setup), and where to get the Firebase configuration is available [here](https://support.google.com/firebase/answer/7015592).

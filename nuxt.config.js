@@ -1,4 +1,4 @@
-import colors from 'vuetify/es5/util/colors'
+import colors from 'vuetify/es5/util/colors';
 
 export default {
   ssr: false,
@@ -31,7 +31,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    "~plugins/fireauth.js"
+    '~plugins/fireauth.js'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -51,7 +51,7 @@ export default {
   */
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
-    optionsPath: "~/plugins/vuetify.js",
+    optionsPath: '~/plugins/vuetify.js',
     theme: {
       dark: false,
       themes: {
@@ -65,13 +65,13 @@ export default {
           success: colors.green.accent3
         },
         light: {
-          primary: "#238cb7",
-          accent: "#457B9D",
-          secondary: "#35bdf5",
-          info: "#F1FAEE",
-          warning: "#f4a261",
-          error: "#e76f51",
-          success: "#238cb7",
+          primary: '#238cb7',
+          accent: '#457B9D',
+          secondary: '#35bdf5',
+          info: '#F1FAEE',
+          warning: '#f4a261',
+          error: '#e76f51',
+          success: '#238cb7',
           background: 'f5f5f5'
         }
       }
@@ -87,4 +87,4 @@ export default {
     extend(config, ctx) {
     }
   }
-}
+};

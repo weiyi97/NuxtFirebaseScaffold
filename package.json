@@ -1,5 +1,5 @@
 {
-  "name": "NuxtFirebaseScaffold",
+  "name": "nuxt-firebase-scaffold",
   "version": "1.0.0",
   "description": "App to demonstrate how to integrate firebase auth, firestore and functions",
   "author": "limjix",

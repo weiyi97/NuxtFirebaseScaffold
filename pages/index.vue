@@ -1,16 +1,15 @@
 <template>
-    <div>
-      <h1>home</h1>
-    </div>
+	<div>
+		<h1>Home</h1>
+	</div>
 </template>
 
 <script>
-  export default {
-    name: "index",
-    // middleware: "authentication"
-  }
+export default {
+	name: 'Homepage'
+	// middleware: "authentication"
+};
 </script>
 
 <style scoped>
-
 </style>
