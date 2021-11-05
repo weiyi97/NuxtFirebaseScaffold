@@ -30,7 +30,7 @@ $ npm run deployall
 #More information can be found in the package.json file
 ```
 
-# First Time Setup
+## First Time Setup
 
 1. Go to `/firebase/init.js` and add your project information + api keys there
 2. Edit `package.json` to change the app name and description to your own
