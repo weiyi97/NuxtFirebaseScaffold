@@ -1,6 +1,6 @@
 # NuxtFirebaseScaffold
 
-Built upon [NuxtFirebaseScaffold](https://github.com/szetyng/NuxtFirebaseScaffold), which provided a Nuxt app with readily integrated Firebase Auth, Firestore and Functions. Generated with Vuetify as the design library of choice, and built as a responsive SPA (only client-side rendering). Pages that are already available are: login, signup and home page. Authenthication setup also includes a `user.js` Vuex Store and an authentication plugin for route-guarding.
+A scaffold Nuxt app with readily integrated Firebase Auth, Firestore and Functions. Generated with Vuetify as the design library of choice, and built as a responsive SPA (only client-side rendering). Pages that are already available are: login, signup and home page. Authenthication setup also includes a `user.js` Vuex Store and an authentication plugin for route-guarding.
 
 Created using `create-nuxt-app`.
 
