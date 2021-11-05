@@ -1,4 +1,4 @@
-# Test
+# NuxtFirebaseScaffold
 
 > App to demonstrate how to integrate with firebase auth, firestore and functions. Also, generated with Vuetify properly setup as a responsive app with login page, signup page and home page with theme colours ready to go out of the box.
 >
