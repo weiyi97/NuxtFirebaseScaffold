@@ -1,10 +1,9 @@
 # NuxtFirebaseScaffold
 
-> App to demonstrate how to integrate with firebase auth, firestore and functions. Also, generated with Vuetify properly setup as a responsive app with login page, signup page and home page with theme colours ready to go out of the box.
->
-> Basically, all I did was to use create-nuxt-app, then deleted the stock pages and images, created a signup, login and home page. Created a user store + plugins + middleware for route guarding. Changed the default layout to a normal app layout with a sidebar, navbar and footer. Then added all the integrations in to get a basic app ready to go.
->
-> Hope this helps! Contact me if you have an issue!
+Built upon [NuxtFirebaseScaffold](https://github.com/szetyng/NuxtFirebaseScaffold), which provided a Nuxt app with readily integrated Firebase Auth, Firestore and Functions. Generated with Vuetify as the design library of choice, and built as a responsive SPA (only client-side rendering). Pages that are already available are: login, signup and home page. Authenthication setup also includes a `user.js` Vuex Store and an authentication plugin for route-guarding.
+
+Created using `create-nuxt-app`.
+
 
 ## Build Setup
 
@@ -31,10 +30,10 @@ $ npm run deployall
 #More information can be found in the package.json file
 ```
 
-# Things you need to do:
+# First Time Setup
 
 1. Go to `/firebase/init.js` and add your project information + api keys there
 2. Edit `package.json` to change the app name and description to your own
-3. In `store/user.js` and in the `login.vue` page, specify what information the user keys in for signup for their account\
+3. In `store/user.js` and in the `login.vue` page, specify what information the user keys in for signup for their account.
 
 In order for this app to be able to work, you will need to have already added the Firebase config details in `firebase/init.js`. Details on how to set up a Firebase project for a web app is available [here](https://firebase.google.com/docs/web/setup), and where to get the Firebase configuration is available [here](https://support.google.com/firebase/answer/7015592).
