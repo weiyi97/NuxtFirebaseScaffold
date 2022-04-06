@@ -18,6 +18,7 @@ import {
   collection,
   setDoc,
 } from "firebase/firestore";
+import { getters, mapGetters, mapState } from "vuex";
 
 export default {
   name: "Intervention",
@@ -42,6 +43,11 @@ export default {
       }).then(() => {
         this.initialize();
       });
+
+      const userData = {
+        type: "dummy",
+        displayName: "test",
+      };
     },
 
     initialize() {
@@ -84,6 +90,10 @@ export default {
     //   .catch((e) => {
     //     console.log(e);
     //   });
+  },
+
+  computed: {
+    ...mapGetters[("user/isAuthenticated", "user/isEmailVerifired")],
   },
 };
 </script>
