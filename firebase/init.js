@@ -1,21 +1,23 @@
 //migrated to version 9
 
-//version 9 compat imports
-import firebase from 'firebase/compat/app';
-// import 'firebase/compat/auth';
-// import 'firebase/compat/firestore';
 
 
-//version 9 modular style import
+
+//-----version 9 modular style import
+
 import { initializeApp } from "firebase/app"
 import {getAuth, onAuthStateChanged,  setPersistence, signInWithEmailAndPassword, browserSessionPersistence} from 'firebase/auth';
 import { getFirestore, collection, getDoc, query, where, getDocs } from 'firebase/firestore';
 
-// Import the functions you need from the SDKs you need
-// import { initializeApp } from "firebase/app";
-// import { getAnalytics } from "firebase/analytics";
 
-// pre-version 9 import - DOES NOT WORK ANYMORE
+//------version 9 compat imports
+
+// import firebase from 'firebase/compat/app';
+// import 'firebase/compat/auth';
+// import 'firebase/compat/firestore';
+
+//------pre-version 9 import - DOES NOT WORK ANYMORE
+
 // import * as firebase from 'firebase/app';
 // import 'firebase/auth';
 // import 'firebase/firestore';
@@ -94,4 +96,4 @@ setPersistence(auth, browserSessionPersistence)
 // LinkedInProvider.addScope('r_liteprofile');
 // LinkedInProvider.addScope('r_emailaddress');
 
-export default firebase;
+// export default firebase;

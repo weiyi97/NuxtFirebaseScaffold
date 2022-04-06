@@ -35,8 +35,8 @@ export default {
       //-----create a document
 
       // init collection ref
-      const docRef = collection(firestoreDB, "Users");
-      setDoc(doc(docRef), {
+      const colRef = collection(firestoreDB, "Users");
+      setDoc(doc(colRef), {
         displayName: "Sze Tyng",
         isDHP: true,
       }).then(() => {
